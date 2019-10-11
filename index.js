@@ -17,10 +17,10 @@ destructivelyRemoveFirstKitten = () => {
   kittens.shift(); return kittens;
 }
 
-appendKitten = (name) => [...kittens, name]
+appendKitten = (name) => [...kittens, name];
 
-prependKitten = (name) => [name, ...kittens]
+prependKitten = (name) => [name, ...kittens];
 
-removeLastKitten = () => kittens.slice(0, kittens.length)
+removeLastKitten = () => kittens.slice(0, kittens.length);
 
-removeFirstKitten = () => kittens.slice(1) 
+removeFirstKitten = () => kittens.slice(1);
