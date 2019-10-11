@@ -21,7 +21,7 @@ describe('Arrays', function() {
       expect(window.kittens).toEqual(["Bob", "Milo", "Otis", "Garfield"])
     })
   })
-/*
+
   describe('destructivelyRemoveLastKitten()', function() {
     it('removes the last kitten from the kittens array', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
@@ -74,5 +74,5 @@ describe('Arrays', function() {
 
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
-  })*/
+  })
 })
