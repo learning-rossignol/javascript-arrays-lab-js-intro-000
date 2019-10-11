@@ -16,3 +16,5 @@ destructivelyRemoveLastKitten = () => {
 destructivelyRemoveFirstKitten = () => {
   kittens.shift(); return kittens;
 }
+
+appendKitten = (name) => [...kittens, name]
