@@ -9,12 +9,12 @@ function destructivelyPrependKitten(name) {
   kittens.unshift( name);
   return kittens;
 }
-/*
-destructivelyRemoveLastKitten = () => {
+
+function destructivelyRemoveLastKitten() {
   kittens.pop; return kittens;
 }
 
-destructivelyRemoveFirstKitten = () => {
+function destructivelyRemoveFirstKitten() {
   kittens.shift(); return kittens;
 }
 
