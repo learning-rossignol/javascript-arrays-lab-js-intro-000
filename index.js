@@ -8,7 +8,7 @@ destructivelyAppendKitten = (k) => {
 destructivelyPrependKitten = (name) => {
   kittens.unshift( name); return kittens;
 }
-
+/*
 destructivelyRemoveLastKitten = () => {
   kittens.pop; return kittens;
 }
@@ -24,3 +24,4 @@ prependKitten = (name) => [name, ...kittens];
 removeLastKitten = () => kittens.slice(0, kittens.length);
 
 removeFirstKitten = () => kittens.slice(1);
+*/
