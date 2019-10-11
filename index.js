@@ -12,3 +12,7 @@ destructivelyPrependKitten = (name) => {
 destructivelyRemoveLastKitten = () => {
   kittens.pop; return kittens;
 }
+
+destructivelyRemoveFirstKitten = () => {
+  kittens.shift(); return kittens;
+}
