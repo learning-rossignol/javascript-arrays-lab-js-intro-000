@@ -24,6 +24,3 @@ prependKitten = (name) => [name, ...kittens];
 removeLastKitten = () => kittens.slice(0, kittens.length);
 
 removeFirstKitten = () => kittens.slice(1);
-
-console.log( destructivelyPrependKitten("Yo"));
-console.log( kittens);
