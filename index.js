@@ -6,7 +6,8 @@ destructivelyAppendKitten = (k) => {
 }
 
 destructivelyPrependKitten = (name) => {
-  kittens.unshift( name); return kittens;
+  kittens.unshift( name);
+  return kittens;
 }
 /*
 destructivelyRemoveLastKitten = () => {
