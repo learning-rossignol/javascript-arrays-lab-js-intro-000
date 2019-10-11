@@ -18,8 +18,9 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift(); return kittens;
 }
 
-appendKitten = (name) => [...kittens, name];
-
+function appendKitten(name) {
+  return [...kittens, name];
+}
 prependKitten = (name) => [name, ...kittens];
 
 removeLastKitten = () => kittens.slice(0, kittens.length);
