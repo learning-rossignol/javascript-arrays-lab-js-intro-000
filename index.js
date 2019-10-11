@@ -18,3 +18,7 @@ destructivelyRemoveFirstKitten = () => {
 }
 
 appendKitten = (name) => [...kittens, name]
+
+prependKitten = (name) => [name, ...kittens]
+
+removeLastKitten = () => kittens.slice(0, kittens.length)
