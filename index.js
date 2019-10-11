@@ -4,3 +4,7 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 destructivelyAppendKitten = (k) => {
   kittens.push( k); return kittens;
 }
+
+destructivelyPrependKitten = (name) => {
+  kittens.unshift( name); return kittens;
+}
